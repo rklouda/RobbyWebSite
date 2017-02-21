@@ -10,7 +10,7 @@ module.exports = function(grunt) {
       build: {
         src: 'src/factorial.js',
         dest: 'build/factorial.min.js'
-      }
+      },
       dist: {
       files: {
         'index.html': ['index.html']
