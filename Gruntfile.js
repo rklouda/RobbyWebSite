@@ -11,11 +11,9 @@ module.exports = function(grunt) {
         src: 'src/factorial.js',
         dest: 'build/factorial.min.js'
       },
-      dist: {
       files: {
         'index.html': ['index.html']
       }
-    }
   });
 
   // Load the plugin that provides the "uglify" task.
