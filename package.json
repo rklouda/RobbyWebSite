@@ -2,7 +2,7 @@
   "name": "node-grunt",
   "version": "1.0.0",
   "description": "Heroku example for using Grunt with Node.js",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "postinstall": "grunt uglify",
     "start": "node server.js"
